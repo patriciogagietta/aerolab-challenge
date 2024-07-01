@@ -1,0 +1,42 @@
+.notificacion-container {
+    position: fixed;
+    bottom: 30px;
+    left: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    padding: 24px;
+    border-radius: 12px;
+    box-shadow: 0px 2px 8px 0px #0000000D;
+    background: var(--neutrals-0);
+    transition: opacity 0.5s;
+    opacity: 0;
+}
+
+.notificacion-left {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.notificacion-container-successfully {
+    border: 2px solid #29CC74;
+}
+
+.notificacion-container-error {
+    border: 2px solid #FF0000;
+}
+
+.notificacion-activa {
+    opacity: 1;
+    z-index: 7;
+}
+
+.parrafo-notificacion {
+    color: var(--neutrals-600);
+}
+
+.icon-close-notificacion:hover {
+    transform: scale(1.05);
+}

@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* COLORES */
+:root {
+    /* NEUTRALS */
+    --neutrals-900: #252F3D;
+    --neutrals-600: #7C899C;
+    --neutrals-500: #8FA3BF;
+    --neutrals-300: #DAE4F2;
+    --neutrals-200: #E6EDF7;
+    --neutrals-100: #F5F9FF;
+    --neutrals-0: #FFFFFF;
+
+    /* BRAND */
+    --brand-default: linear-gradient(102.47deg, #176FEB -5.34%, #FF80FF 106.58%);
+    --brand-hover: linear-gradient(102.47deg, #1667D9 -5.34%, #F279F2 106.58%);
+    --brand-light: #E5F0FF;
+    --brand-light-2: #CCE1FF;
+
+    /* RED */
+    --red-default: #E07F4F;
+    --red-light: #FFDFD9;
+
+    /* SPECIALS */
+    --specials-illustration-bg: linear-gradient(102.47deg, #7296EB -5.34%, #EAC0E9 106.58%, #EAC0E9 106.58%);
+    --specials-section-bg: linear-gradient(102.47deg, rgba(23, 111, 235, 0.5) -5.34%, rgba(255, 128, 255, 0.5) 106.58%);
+    --specials-aerolab: linear-gradient(180deg, #FF8800 0%, #FF6600 100%);
+}
+
+/* TYPOGRAFIA DESKTOP*/
+
+.l1-default-title {
+    font-family: "Montserrat", sans-serif;
+    font-size: 200px;
+    font-weight: 900;
+    line-height: 80%;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.l2-default-title {
+    font-family: "Montserrat", sans-serif;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 80%;
+    text-transform: uppercase;
+}
+
+.l3-default-title {
+    font-family: "Montserrat", sans-serif;
+    font-size: 32px;
+    font-weight: 900;
+    line-height: 100%;
+    text-transform: uppercase;
+}
+
+.l1-default-text {
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 150%;
+}
+
+.l1-all-caps-text {
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 150%;
+    letter-spacing: 24%;
+    text-transform: uppercase;
+}
+
+.l1-light-weight-text {
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 150%;
+    letter-spacing: 0;
+}
+
+.l2-default-text {
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 150%;
+    letter-spacing: 0%;
+}
+
+.l2-all-caps-text {
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 150%;
+    letter-spacing: 5%;
+    text-transform: uppercase;
+}
+
+.color-brand-default {
+    background: var(--brand-default);
+    background-clip: text;
+    color: transparent;
+}
+
+.container-app {
+    max-width: 1464px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cursor-active {
+    cursor: pointer;
+}

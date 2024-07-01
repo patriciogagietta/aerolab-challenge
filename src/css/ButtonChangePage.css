@@ -1,0 +1,23 @@
+.buttons-pages {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    border: 1px solid #DAE4F2;
+    border-radius: 16px;
+    padding: 12px 16px;
+}
+
+.icon-wrapper-pages {
+    background: var(--brand-light);
+    border-radius: 8px;
+    padding: 8px;
+    transition: transform 0.3s ease;
+}
+
+.icon-wrapper-pages:hover {
+    transform: scale(1.04);
+}
+
+.parrafo-controls {
+    color: var(--neutrals-600);
+}

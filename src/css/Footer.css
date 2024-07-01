@@ -1,0 +1,16 @@
+.container-footer {
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+    align-items: center;
+    padding: 80px;
+    margin-top: 170px;
+}
+
+.parrafo-footer {
+    color: var(--neutrals-600);
+}
+
+.parrafo-footer:hover {
+    color: var(--neutrals-500);
+}
