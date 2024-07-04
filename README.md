@@ -5,3 +5,5 @@
 ## Documentacion
 
 [Challenge Aerolab](https://github.com/Aerolab/frontend-developer-coding-challenge)
+
+Solo adaptable para escritorio
